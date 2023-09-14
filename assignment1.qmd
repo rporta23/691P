@@ -22,7 +22,7 @@ csl: "harvard-cite-them-right.csl"
     -   Chicago, IL
     -   Dallas, TX
 
-\[\@FactsStatisticsFinancials\]
+[@FactsStatisticsFinancials] [@RITABTSTranstats]
 
 ## Bullets
 
