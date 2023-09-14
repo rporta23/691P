@@ -10,19 +10,46 @@ bibliography: "`r rbbt::bbt_write_bib('tpa.bib', overwrite = TRUE)`"
 csl: "harvard-cite-them-right.csl"
 ---
 
-## Tampa International Airport
+## Tampa International Airport (TPA): An Overview
 
 -   Location: Tampa, Florida
--   21 million passengers, 459 million pieces of cargo, and 26 million pieces of mail in 2022
--   \\\>90 destinations
--   Most popular destinations:
-    -   Atlanta, GA
-    -   Charlotte, NC
-    -   Denver, CO
-    -   Chicago, IL
-    -   Dallas, TX
+- 23rd Largest Airport in the U.S. 
+- 21 million passengers, 459 million pieces of cargo, and 26 million pieces of mail in 2022 
+- 60,000 passengers/day
+- 550 departing and arriving flights (combined)
+-   \>90 destinations
 
-[@FactsStatisticsFinancials] [@RITABTSTranstats]
+Source: [@FactsStatisticsFinancials]
+
+## TPA Most Popular Destinations
+ -   Atlanta, GA
+ -   Charlotte, NC
+ -   Denver, CO
+ -   Chicago, IL
+ -   Dallas, TX
+ 
+ Source: [@RITABTSTranstats]
+ 
+## TPA Top Airlines
+ 
+ - Southwest Airlines
+ - Delta Air Lines
+ - American Airlines
+ - United Airlines
+ - Spirit Airlines
+ - Frontier Airlines
+ - JetBlue Airways
+
+Source: [@FactsStatisticsFinancials]
+
+## Photo
+::: {.stack}
+```{r hfs-dist-image, out.width='90%'}
+
+knitr::include_graphics(here::here('images/art1.png'))
+
+```
+:::
 
 ## Bullets
 
