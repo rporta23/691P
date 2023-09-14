@@ -1,0 +1,40 @@
+---
+title: "Assignment 1"
+author: "Rose Porta"
+format: 
+  revealjs: 
+    theme: custom.scss
+    df-print: paged
+    embed-resources: true
+bibliography: "`r rbbt::bbt_write_bib('tpa.bib', overwrite = TRUE)`"
+csl: "harvard-cite-them-right.csl"
+---
+
+## Tampa International Airport
+
+-   Location: Tampa, Florida
+-   21 million passengers, 459 million pieces of cargo, and 26 million pieces of mail in 2022
+-   \\\>90 destinations
+-   Most popular destinations:
+    -   Atlanta, GA
+    -   Charlotte, NC
+    -   Denver, CO
+    -   Chicago, IL
+    -   Dallas, TX
+
+\[\@FactsStatisticsFinancials\]
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
