@@ -16,10 +16,12 @@ csl: "harvard-cite-them-right.csl"
 - 23rd Largest Airport in the U.S. 
 - 21 million passengers, 459 million pieces of cargo, and 26 million pieces of mail in 2022 
 - 60,000 passengers/day
-- 550 departing and arriving flights (combined)
+- 550 departing and arriving flights/day (combined)
 -   \>90 destinations
+- Highest Traffic in March, Lowest in September
+- Publicly owned by the Hillsborough County Aviation Authority (HCAA)
 
-Source: [@FactsStatisticsFinancials]
+Sources: [@FactsStatisticsFinancials], [@AirportAdministrationTampa]
 
 ## TPA Most Popular Destinations
  -   Atlanta, GA
@@ -42,26 +44,56 @@ Source: [@FactsStatisticsFinancials]
 
 Source: [@FactsStatisticsFinancials]
 
+## TPA Delay Stats 2022 (Domestic Flights Only)
+
+- 74% departed on-time
+  - Average delay time 70 minutes (among delays)
+- 71% arrived on-time
+  - Average delay time 64 minutes (among delays)
+- 3.5% cancelled
+
+Source: [@RITABTSTranstats]
+
+## TPA Customer Satisfaction Awards
+
+- Ranked Number 1 in U.S.for JD Power’s 2022 Airport Satisfaction Study
+- Ranked Number 3 in Florida for FloridaRentals.com study July 2023
+- 2023 Finalist for USA Today 10Best Readers Choice Awards program
+
+Sources: [@PowerNamesTPA], [@reportsStudyListsTampa2023], [@TPABestLarge]
+
+## TPA Public Art Collection
+
+## TPA Sustainability Efforts
+
+- 42% of planes run on alternative fuels including CNG, electric and hybrid
+- Hosts 15 EV charging stations for public
+- Gives preferential parking to people with alternative fuel vehicles
+- Use reclaimed water for landscape irrigation and cooling towers
+- Reduced electricity consumption by 10% per passenger since 2011
+- Plan for extending efforts over next several years
+
+Source: [@OurSustainabilityProgram]
+
 ## Photo
-::: {.stack}
-```{r hfs-dist-image, out.width='90%'}
+
+::: {.column width="50%"}
+```{r out.width='50%'}
 
 knitr::include_graphics(here::here('images/art1.png'))
 
 ```
 :::
 
-## Bullets
+::: {.column width="50%"}
+```{r out.width='50%'}
 
-When you click the **Render** button a document will be generated that includes:
+knitr::include_graphics(here::here('images/art2.jpg'))
 
--   Content authored with markdown
--   Output from executable code
-
-## Code
-
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
 ```
+
+:::
+
+
+## References
+
